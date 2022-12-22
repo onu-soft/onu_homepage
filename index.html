@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143696272-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143696272-1');
+</script>
+
+  <meta charset="UTF-8">
+  <META name="Author" content="(주)온유(ONU Soft)">
+  <meta name="title" content="앱 전문 개발 연구 기업">
+  <meta name="keywords" content="앱 개발, 안드로이드 앱 개발, ios 앱 개발">
+  <meta name="description" content="안드로이드,ios 앱 전문 개발 기업 입니다.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./img/image.png" />
+  <title>온유소프트(ONU Soft) - 앱 전문 개발 연구기업</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/onu.css" />
+  <script src="js/modernizr.custom.js"></script>
+  <link rel="icon" href="img/favicon/FAVICON_16.png" sizes="16x16">
+  <link rel="icon" href="img/favicon/FAVICON_32.png" sizes="32x32">
+  <link rel="icon" href="img/favicon/FAVICON_64.png" sizes="64x64">
+
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link rel="stylesheet" href="css/gallery_grid.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container-fluid container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle navbar-toggler-right" data-toggle="collapse"
+            data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home"><img src="img/logo.png"></img></a>
+        </div>
+        <div class="collapse navbar-collapse " id="myNavbar">
+          <ul class="nav navbar-nav navbar-right smooth-scroll list-unstyled">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#intro_company">회사소개</a></li>
+            <li><a href="#service_company">기술</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <div style="background:cornflowerblue">
+    <div class="container container-fluid" id="section1">
+      <div class="jumbotron" id="jumbosection">
+        <h1>Bootstrap Tutorial</h1>
+        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+          responsive, mobile-first projects on the web.</p>
+      </div>
+      <p>This is some text.</p>
+      <p>This is another text.</p>
+    </div>
+  </div> -->
+
+
+  <div id="carousel-header" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-header" data-slide-to="1"></li>
+      <li data-target="#carousel-header" data-slide-to="2"></li>
+    </ol>
+    <div id="home" class="carousel-inner" role="listbox">
+      <div class="item active">
+
+        <header class="slide1">
+          <div class="intro-content ">
+            <div class="brand-title">
+              <span>
+                O: Only
+              </span>
+            </div>
+            <div class="brand-des">
+              <span>오직 당신을 위한 솔루션을 만들어 갑니다.</span>
+            </div>
+          </div>
+        </header>
+
+      </div>
+      <div class="item">
+
+        <header class="slide2">
+          <div class="intro-content">
+            <div class="brand-title">
+              <span>
+                N: New
+              </span>
+            </div>
+            <div class="brand-des">
+              <span>새롭고 참신한 아이디어를 실현하는 곳입니다.</span>
+            </div>
+          </div>
+        </header>
+
+      </div>
+      <div class="item">
+
+        <header class="slide3">
+          <div class="intro-content">
+            <div class="brand-title">
+              <span>
+                U: Unite
+              </span>
+            </div>
+            <div class="brand-des">
+              <span>사람 + 새로운 생각 + 도전 + 기술</span>
+            </div>
+          </div>
+        </header>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="intro_company" class="sec_company">
+    <div id="section2" class="container">
+      <div class="group_compay">
+        <div class="col-sm-3">
+          <div class="moving_logo">
+            <img id="img_moving_logo" class="img_logo" src="img/log_moving.gif" />
+          </div>
+          <div class="logo">
+            <img class="img_logo" src="img/logo.png" />
+          </div>
+        </div>
+        <div class="col-sm-9" align="left">
+          <div class="div_title">
+            <span class="sp_title">회사 개요</span>
+          </div>
+          <div class="div_subtitle">
+            <span class="sp_subtitle">' 새로운 기술 개발과 아이디어 '</span>
+          </div>
+          <p>각분야(솔루션,모바일앱)에서 10년 이상되는 경력의 드림팀인력으로
+            최고의 품질과 기술을 제공할 수 있습니다. <br>
+            새로운 기술개발과 아이디어로 새로운 가치를 창조해 나가겠습니다.
+          </p>
+          <hr>
+          <div class="div_title">
+            <span class="sp_title">경영 철학</span>
+          </div>
+          <div class="div_subtitle">
+            <span class="sp_subtitle">' Onu는 Playground + Workground '</span>
+          </div>
+          <p>
+            놀기와 일함을 동시에 즐기면서 삶에 가치를 부여합니다.<br>
+            내부적으로 직원들에게 좀 더 효율적인 업무프로세스를 적용하여, 업무시간
+            을 단축시키고, 좀 더 나은 개발환경을 구축했을때, 새로운 생각, 새로운 기술습득,
+            새로운 패러다임으로 고객에게는 최상의 결과물을 제공할 것입니다.
+          </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clock_img" id="clock_bg">
+    <div class="clock_box">
+      <div>
+        <span id="clock"></span>
+      </div>
+      <div>
+        <span id="clock_des">온유는 당신의 시간을 소중히 생각합니다.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="service" id="service_company">
+    <div class="container">
+      <div class="tz-gallery custom-gallery">
+        <div class="col">
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_01.JPG">
+              <img src="img/tech/ONU_TECH_THUMNAIL_DEVICEDRIVER.png" alt="Park">
+              <h1>디바이스 드라이버</h1>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_02.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_03.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_04.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_05.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_06.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_07.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_08.JPG">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="tz-gallery custom-gallery">
+        <div class="col">
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_01.JPG">
+              <img src="img/tech/ONU_TECH_THUMNAIL_APPLICATION.png" alt="Park">
+              <h1>어플리케이션 개발</h1>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_02.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_03.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_04.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_05.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_06.JPG">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tz-gallery custom-gallery">
+        <div class="col">
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_01.JPG">
+              <img src="img/tech/ONU_TECH_THUMNAIL_MOBILE.png" alt="Park">
+              <h1>모바일 개발</h1>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_02.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_03.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_04.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_05.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_06.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_07.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_08.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_09.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_10.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_11.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_12.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_13.JPG">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tz-gallery custom-gallery">
+        <div class="col">
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_01.JPG">
+              <img src="img/tech/ONU_TECH_THUMNAIL_OCR.png" alt="Park">
+              <h1>OCR</h1>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_02.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_03.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_04.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_05.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_06.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_07.JPG">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="tz-gallery custom-gallery">
+        <div class="col">
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_01.JPG">
+              <img src="img/tech/ONU_TECH_THUMNAIL_EMBEDDED.png" alt="Park">
+              <h1>임베디드</h1>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_02.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_03.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_04.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_05.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_06.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_07.JPG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_08.JPG">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="tz-gallery custom-gallery">
+        <div class="col">
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/usb_sec/슬라이드1.PNG">
+              <img src="img/tech/ONU_TECH_THUMNAIL_USB_PROTECTION.png" alt="Park">
+              <h1>USB 보안</h1>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/usb_sec/슬라이드2.PNG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/usb_sec/슬라이드3.PNG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/usb_sec/슬라이드4.PNG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/usb_sec/슬라이드5.PNG">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a class="lightbox" href="img/tech/usb_sec/슬라이드6.PNG">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <img src="img/logo.png" class="img_footer" />
+      <div class="copyright">
+        <p>(주) 온유소프트(ONU Soft) 대표이사 : 이형동 | 주소 : (05838)서울특별시 송파구 충민로 66,  가든파이브 라이프 리빙관 7층 L7115호</p>
+        <p>사업자등록번호 : 406-86-01176 | TEL : 010-4095-7857 | FAX : 0303-3441-0220</p>
+        <p>MAIL : support@onu-soft.com</p>
+        <p>&copy;2019 ONU Soft</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+
+
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 300, function () {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+
+    $(window).scroll(function () {
+      $(".slideanim").each(function () {
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+  })
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script src="js/grid.js"></script>
+<script>
+  $(function () {
+    Grid.init();
+  });
+
+  baguetteBox.run('.tz-gallery');
+
+  // $(function () {
+  //   $(document).scroll(function () {
+  //     var $nav = $(".navbar-fixed-top");
+  //     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  //   });
+  // });
+</script>
+
+<script>
+  if (navigator.userAgent.match(/Trident\/7\./)) {
+    document.body.addEventListener("mousewheel", function () {
+      event.preventDefault();
+      var wd = event.wheelDelta;
+      var csp = window.pageYOffset;
+      window.scrollTo(0, csp - wd);
+    });
+  }
+</script>
+
+<script>
+  function changeImge(hour) {
+    var change_image = document.getElementById("clock_bg");
+
+    //밤 인 경우
+    if (hour >= 18 && hour <= 24) {
+      change_image.style.backgroundImage = "url(img/clock_bg/clock_bg_night.jpeg)";
+      //밤 인 경우
+    } else if (hour >= 0 && hour <= 6) {
+      change_image.style.backgroundImage = "url(img/clock_bg/clock_bg_night.jpeg)";
+    } else {
+      //낮 인 경우
+      change_image.style.backgroundImage = "url(img/clock_bg/clock_bg_day.jpeg)";
+    }
+
+  }
+
+  function printTime() {
+    var clock = document.getElementById("clock"); // 출력할 장소 선택
+    var now = new Date(); // 현재시간
+    var hour = now.getHours();
+    var min = now.getMinutes();
+    var sec = now.getSeconds();
+
+    if (hour < 10) {
+      hour = '0' + hour;
+    }
+
+    if (min < 10) {
+      min = '0' + min;
+    }
+
+    if (sec < 10) {
+      sec = '0' + sec;
+    }
+
+
+    changeImge(hour);
+
+
+    var nowTime = hour + ":" + min + ":" + sec;
+    clock.innerHTML = nowTime; // 현재시간을 출력
+    setTimeout("printTime()", 1000); // setTimeout(“실행할함수”,시간) 시간은1초의 경우 1000
+  }
+
+  window.onload = function () { // 페이지가 로딩되면 실행
+    printTime();
+  }
+</script>
+
+</html>
