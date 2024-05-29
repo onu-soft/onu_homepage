@@ -59973,16 +59973,16 @@ return Math.sqrt(r*r+q*q+p*p+s*s)}}
 A.Ah.prototype={
 W(a){var s=null
 return new A.rV(A.ahx(new A.Cs(A.a2i(A.LX(s,this.Kf(a),B.i,new A.aL(0,800,0,1/0),s,s,s,s,1/0),s,s),s),!0),s)},
-Kf(a){var s,r,q,p,o,n,m=null,l="assets/images/title.png",k="assets/images/app-store.png",j="assets/images/intro_1.png",i="assets/images/intro_2.png",h="assets/images/intro_3.png",g="assets/images/intro_4.png",f="PretendardBold",e=t.eE,d=A.a5I(A.b([A.hP(m,20,m),A.eX(B.iB,100,new A.d0(l),100),new A.hB(B.jH,A.a8m("Cloud P \ubc14\ub85c \ub2e4\uc6b4\ub85c\ub4dc!",A.ld(m,m,m,m,m,m,m,m,f,m,m,20,m,m,B.fz,m,m,!0,m,m,m,m,m,m,m,m)),m),A.LX(m,A.C0(A.b([A.OL(m,A.eX(B.iA,70,new A.d0(k),300),B.aT,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.Rv(this),m,m,m)],e),B.h8,B.bK),m,m,m,100,m,m,m),A.C0(A.b([A.NJ(A.eX(m,m,new A.d0(j),m)),A.hP(m,m,10),A.NJ(A.eX(m,m,new A.d0(i),m))],e),B.cL,B.bK),A.hP(m,10,m),A.C0(A.b([A.NJ(A.eX(m,m,new A.d0(h),m)),A.hP(m,m,10),A.NJ(A.eX(m,m,new A.d0(g),m))],e),B.cL,B.bK),A.hP(m,50*$.oB().gte(),m)],e))
+Kf(a){var s,r,q,p,o,n,m=null,l="assets/images/title.png",k="Cloud P \ubc14\ub85c \ub2e4\uc6b4\ub85c\ub4dc!",j="assets/images/app-store.png",i="assets/images/intro_1.png",h="assets/images/intro_2.png",g="assets/images/intro_3.png",f="assets/images/intro_4.png",e="PretendardBold",d=t.eE,c=A.a5I(A.b([A.hP(m,20,m),A.eX(B.iB,100,new A.d0(l),100),new A.hB(B.jH,A.a8m(k,A.ld(m,m,m,m,m,m,m,m,e,m,m,20,m,m,B.fz,m,m,!0,m,m,m,m,m,m,m,m)),m),A.LX(m,A.C0(A.b([A.OL(m,A.eX(B.iA,70,new A.d0(j),300),B.aT,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.Rv(this),m,m,m)],d),B.h8,B.bK),m,m,m,100,m,m,m),A.C0(A.b([A.NJ(A.eX(m,m,new A.d0(i),m)),A.hP(m,m,10),A.NJ(A.eX(m,m,new A.d0(h),m))],d),B.cL,B.bK),A.hP(m,10,m),A.C0(A.b([A.NJ(A.eX(m,m,new A.d0(g),m)),A.hP(m,m,10),A.NJ(A.eX(m,m,new A.d0(f),m))],d),B.cL,B.bK),A.hP(m,50*$.oB().gte(),m)],d))
 if(A.cM(a,m,t.w).w.a.a<690){s=A.hP(m,20,m)
 r=A.eX(B.iB,100,new A.d0(l),100)
-q=A.a8m("\ud478\uc2dc\ucea3 \ubc14\ub85c \ub2e4\uc6b4\ub85c\ub4dc!",A.ld(m,m,m,m,m,m,m,m,f,m,m,20,m,m,m,m,m,!0,m,m,m,m,m,m,m,m))
+q=A.a8m(k,A.ld(m,m,m,m,m,m,m,m,e,m,m,20,m,m,m,m,m,!0,m,m,m,m,m,m,m,m))
 p=$.oB()
 o=p.d
 o===$&&A.a()
 n=p.a
 n===$&&A.a()
-d=A.a5I(A.b([s,r,new A.hB(B.jH,q,m),A.LX(m,A.C0(A.b([A.OL(m,A.eX(B.iA,80*p.gte(),new A.d0(k),130*(o.a.a/n.a)),B.aT,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.Rw(this),m,m,m)],e),B.h8,B.bK),m,m,m,100,m,m,m),A.eX(m,m,new A.d0(j),m),B.hS,A.eX(m,m,new A.d0(i),m),B.hS,A.eX(m,m,new A.d0(h),m),B.hS,A.eX(m,m,new A.d0(g),m),A.hP(m,50*$.oB().gte(),m)],e))}return d},
+c=A.a5I(A.b([s,r,new A.hB(B.jH,q,m),A.LX(m,A.C0(A.b([A.OL(m,A.eX(B.iA,80*p.gte(),new A.d0(j),130*(o.a.a/n.a)),B.aT,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.Rw(this),m,m,m)],d),B.h8,B.bK),m,m,m,100,m,m,m),A.eX(m,m,new A.d0(i),m),B.hS,A.eX(m,m,new A.d0(h),m),B.hS,A.eX(m,m,new A.d0(g),m),B.hS,A.eX(m,m,new A.d0(f),m),A.hP(m,50*$.oB().gte(),m)],d))}return c},
 ms(a){return this.Tn(a)},
 Tn(a){var s=0,r=A.K(t.H)
 var $async$ms=A.L(function(b,c){if(b===1)return A.H(c,r)
