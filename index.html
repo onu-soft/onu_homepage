@@ -1,582 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143696272-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143696272-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-143696272-1');
-  </script>
+        gtag('config', 'UA-143696272-1');
+    </script>
 
-  <meta charset="UTF-8">
-  <META name="Author" content="(주)온유(ONU Soft)">
-  <meta name="title" content="앱 전문 개발 연구 기업">
-  <meta name="keywords" content="앱 개발, 안드로이드 앱 개발, ios 앱 개발">
-  <meta name="description" content="안드로이드,ios 앱 전문 개발 기업 입니다.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="./img/image.png" />
-  <title>온유소프트(ONU Soft) - 앱 전문 개발 연구기업</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/component.css" />
-  <link rel="stylesheet" type="text/css" href="css/onu.css" />
-  <link rel="stylesheet" type="text/css" href="css/lpkmusic.css" />
-  <script src="js/modernizr.custom.js"></script>
-  <link rel="icon" href="img/favicon/FAVICON_16.png" sizes="16x16">
-  <link rel="icon" href="img/favicon/FAVICON_32.png" sizes="32x32">
-  <link rel="icon" href="img/favicon/FAVICON_64.png" sizes="64x64">
-
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-  <link rel="stylesheet" href="css/gallery_grid.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온유소프트 (OnuSoft) - 차별화된 기술력 보유기업</title>
+    <meta name="Author" content="(주)온유(ONU Soft)">
+    <meta name="keywords" content="앱 개발, 안드로이드 앱 개발, ios 앱 개발, SI, 시스템 통합, 솔루션 개발">
+    <meta name="description"
+        content="온유소프트는 차별화된 기술력을 보유한 핵심 개발 멤버들과 함께 다양한 분야에서 사업을 진행하고 있습니다. 안드로이드, iOS 앱 전문 개발 기업입니다.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <header>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container-fluid container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle navbar-toggler-right" data-toggle="collapse"
-            data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#home"><img src="img/logo.png"></img></a>
-        </div>
-        <div class="collapse navbar-collapse " id="myNavbar">
-          <ul class="nav navbar-nav navbar-right smooth-scroll list-unstyled">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#intro_company">회사소개</a></li>
-            <li><a href="lpkmusic.html">Project</a></li>
-            <li><a href="#service_company">기술</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <!-- <div style="background:cornflowerblue">
-    <div class="container container-fluid" id="section1">
-      <div class="jumbotron" id="jumbosection">
-        <h1>Bootstrap Tutorial</h1>
-        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-          responsive, mobile-first projects on the web.</p>
-      </div>
-      <p>This is some text.</p>
-      <p>This is another text.</p>
-    </div>
-  </div> -->
-
-
-  <div class="class-div class-img" style="background-color: #0A0D4BFF; color: white; font-size: 5rem;">The lpkmusic app has been
-    released.</div>
-  <div class="class-div" style="background-color: #0A0D4BFF;">
-
-    <a href="./app/lpkmusic/web/index.html" target="_blank">
-      <img src="./app/lpkmusic/web/assets/assets/images/intro_1.png" width="400">
-
-      </img>
-    </a>
-  </div>
-
-
-
-
-  <div id="carousel-header" class="carousel slide carousel-fade" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-header" data-slide-to="1"></li>
-      <li data-target="#carousel-header" data-slide-to="2"></li>
-    </ol>
-    <div id="home" class="carousel-inner" role="listbox">
-      <div class="item active">
-
-        <header class="slide1">
-          <div class="intro-content ">
-            <div class="brand-title">
-              <span>
-                O: Only
-              </span>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">ONUSOFT</a>
             </div>
-            <div class="brand-des">
-              <span>오직 당신을 위한 솔루션을 만들어 갑니다.</span>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#about">회사소개</a></li>
+                    <li><a href="#services">사업분야</a></li>
+                    <li><a href="#portfolio">포트폴리오</a></li>
+                    <li><a href="#contact">문의하기</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
-          </div>
-        </header>
+        </div>
+    </header>
 
-      </div>
-      <div class="item">
-
-        <header class="slide2">
-          <div class="intro-content">
-            <div class="brand-title">
-              <span>
-                N: New
-              </span>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in-up">차별화된 기술력 보유기업<br><span>온유소프트</span>가 함께 합니다.</h1>
+                    <p class="fade-in-up delay-1">최고의 기술과 창의력을 가진 전문가 그룹</p>
+                    <a href="#contact" class="btn fade-in-up delay-2">프로젝트 문의하기</a>
+                </div>
+                <div class="hero-image fade-in-up delay-1">
+                    <!-- Abstract tech illustration placeholder -->
+                    <div class="abstract-shape"></div>
+                </div>
             </div>
-            <div class="brand-des">
-              <span>새롭고 참신한 아이디어를 실현하는 곳입니다.</span>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Us</h2>
+                    <p>온유소프트는 고객과 사회에 영향을 미치는 혁신적인 솔루션을 제공합니다.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Vision</h3>
+                        <p>지속 가능한 혁신을 통해 글로벌 시장에서 선도적인 위치를 확립합니다.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Team</h3>
+                        <p>각 분야 10년 이상 경력의 드림팀이 최고의 품질을 제공합니다.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovation</h3>
+                        <p>새로운 기술개발과 아이디어로 새로운 가치를 창조해 나갑니다.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </header>
+        </section>
 
-      </div>
-      <div class="item">
-
-        <header class="slide3">
-          <div class="intro-content">
-            <div class="brand-title">
-              <span>
-                U: Unite
-              </span>
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>다양한 분야에서 전문적인 IT 서비스를 제공합니다.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile SW</h3>
+                        <p>Android, iOS 네이티브 앱 및 하이브리드 앱 개발</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>SI / System Integration</h3>
+                        <p>금융, 공공, 제조 등 다양한 분야의 시스템 통합 구축</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Solution</h3>
+                        <p>기업 맞춤형 솔루션 기획 및 개발</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>IT Service</h3>
+                        <p>서버 백엔드, 프론트엔드, 유지보수 및 운영</p>
+                    </div>
+                </div>
             </div>
-            <div class="brand-des">
-              <span>사람 + 새로운 생각 + 도전 + 기술</span>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Portfolio</h2>
+                    <p>온유소프트가 걸어온 길을 소개합니다.</p>
+                </div>
+                <div class="portfolio-list">
+                    <div class="portfolio-item">
+                        <div class="portfolio-year">2023-2024</div>
+                        <div class="portfolio-content">
+                            <h3>KCB 기업CB 통합플랫폼 리뉴얼</h3>
+                            <p>기업신용정보 조회 서비스 고도화 및 플랫폼 리뉴얼</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-year">2022</div>
+                        <div class="portfolio-content">
+                            <h3>KoDATA 기업CB 통합플랫폼 구축</h3>
+                            <p>기업신용정보 조회 서비스 구축 (Vue.js, BXM)</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-year">2021</div>
+                        <div class="portfolio-content">
+                            <h3>KCB 기업CB 시스템 구축</h3>
+                            <p>기업 평가 시스템 서버 및 프론트엔드 개발</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-year">2020</div>
+                        <div class="portfolio-content">
+                            <h3>무인 당구장 시스템</h3>
+                            <p>키오스크 개발 및 무인 운영 시스템 구축</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </header>
+        </section>
 
-      </div>
-    </div>
-  </div>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Contact Us</h2>
+                        <p>프로젝트 문의나 궁금한 점이 있으시면 언제든 연락주세요.</p>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>(05838) 서울특별시 송파구 충민로 66, 가든파이브 라이프 리빙관 7층 L7115호</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>010-4095-7857</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>support@onu-soft.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <div id="intro_company" class="sec_company">
-    <div id="section2" class="container">
-      <div class="group_compay">
-        <div class="col-sm-3">
-          <div class="moving_logo">
-            <img id="img_moving_logo" class="img_logo" src="img/log_moving.gif" />
-          </div>
-          <div class="logo">
-            <img class="img_logo" src="img/logo.png" />
-          </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">ONUSOFT</div>
+                <div class="footer-info">
+                    <p>(주) 온유소프트(ONU Soft) 대표이사 : 이형동</p>
+                    <p>주소 : (05838)서울특별시 송파구 충민로 66, 가든파이브 라이프 리빙관 7층 L7115호</p>
+                    <p>사업자등록번호 : 406-86-01176 | TEL : 010-4095-7857 | FAX : 0303-3441-0220</p>
+                    <p>MAIL : support@onu-soft.com</p>
+                    <p class="copyright">©2019 ONU Soft | <a href="https://onu-soft.com/privacy_kr.html"
+                            target="_blank">개인정보처리방침(한글)</a> | <a href="https://onu-soft.com/privacy_en.html"
+                            target="_blank">개인정보처리방침(영문)</a></p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-9" align="left">
-          <div class="div_title">
-            <span class="sp_title">회사 개요</span>
-          </div>
-          <div class="div_subtitle">
-            <span class="sp_subtitle">' 새로운 기술 개발과 아이디어 '</span>
-          </div>
-          <p>각분야(솔루션,모바일앱)에서 10년 이상되는 경력의 드림팀인력으로
-            최고의 품질과 기술을 제공할 수 있습니다. <br>
-            새로운 기술개발과 아이디어로 새로운 가치를 창조해 나가겠습니다.
-          </p>
-          <hr>
-          <div class="div_title">
-            <span class="sp_title">경영 철학</span>
-          </div>
-          <div class="div_subtitle">
-            <span class="sp_subtitle">' Onu는 Playground + Workground '</span>
-          </div>
-          <p>
-            놀기와 일함을 동시에 즐기면서 삶에 가치를 부여합니다.<br>
-            내부적으로 직원들에게 좀 더 효율적인 업무프로세스를 적용하여, 업무시간
-            을 단축시키고, 좀 더 나은 개발환경을 구축했을때, 새로운 생각, 새로운 기술습득,
-            새로운 패러다임으로 고객에게는 최상의 결과물을 제공할 것입니다.
-          </p>
-          <hr>
-        </div>
-      </div>
-    </div>
-  </div>
+    </footer>
 
-  <div class="clock_img" id="clock_bg">
-    <div class="clock_box">
-      <div>
-        <span id="clock"></span>
-      </div>
-      <div>
-        <span id="clock_des">온유는 당신의 시간을 소중히 생각합니다.</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="service" id="service_company">
-    <div class="container">
-      <div class="tz-gallery custom-gallery">
-        <div class="col">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_01.JPG">
-              <img src="img/tech/ONU_TECH_THUMNAIL_DEVICEDRIVER.png" alt="Park">
-              <h1>디바이스 드라이버</h1>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_02.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_03.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_04.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_05.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_06.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_07.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/DRIVER/ONU_TECH_DRIVER_08.JPG">
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="tz-gallery custom-gallery">
-        <div class="col">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_01.JPG">
-              <img src="img/tech/ONU_TECH_THUMNAIL_APPLICATION.png" alt="Park">
-              <h1>어플리케이션 개발</h1>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_02.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_03.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_04.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_05.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/APPLICATION/ONU_TECH_APPLICATION_06.JPG">
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="tz-gallery custom-gallery">
-        <div class="col">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_01.JPG">
-              <img src="img/tech/ONU_TECH_THUMNAIL_MOBILE.png" alt="Park">
-              <h1>모바일 개발</h1>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_02.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_03.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_04.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_05.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_06.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_07.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_08.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_09.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_10.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_11.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_12.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/MOBILE/ONU_TECH_MOBILE_13.JPG">
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="tz-gallery custom-gallery">
-        <div class="col">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_01.JPG">
-              <img src="img/tech/ONU_TECH_THUMNAIL_OCR.png" alt="Park">
-              <h1>OCR</h1>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_02.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_03.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_04.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_05.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_06.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/OCR/ONU_TECH_OCR_07.JPG">
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="tz-gallery custom-gallery">
-        <div class="col">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_01.JPG">
-              <img src="img/tech/ONU_TECH_THUMNAIL_EMBEDDED.png" alt="Park">
-              <h1>임베디드</h1>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_02.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_03.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_04.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_05.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_06.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_07.JPG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/EMBEDDED/ONU_TECH_EMBEDDED_08.JPG">
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="tz-gallery custom-gallery">
-        <div class="col">
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/usb_sec/USB_1.PNG">
-              <img src="img/tech/ONU_TECH_THUMNAIL_USB_PROTECTION.png" alt="Park">
-              <h1>USB 보안</h1>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/usb_sec/USB_2.PNG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/usb_sec/USB_3.PNG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/usb_sec/USB_4.PNG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/usb_sec/USB_5.PNG">
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <a class="lightbox" href="img/tech/usb_sec/USB_6.PNG">
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">
-      <img src="img/logo.png" class="img_footer" />
-      <div class="copyright">
-        <p>(주) 온유소프트(ONU Soft) 대표이사 : 이형동 | 주소 : (05838)서울특별시 송파구 충민로 66, 가든파이브 라이프 리빙관 7층 L7115호</p>
-        <p>사업자등록번호 : 406-86-01176 | TEL : 010-4095-7857 | FAX : 0303-3441-0220</p>
-        <p>MAIL : support@onu-soft.com</p>
-        <p>&copy;2019 ONU Soft | <a href="privacy_kr.html" target="_blank">개인정보처리방침(한글)</a> | <a href="privacy_en.html"
-            target="_blank">개인정보처리방침(영문)</a> </p>
-      </div>
-
-    </div>
-  </footer>
-
+    <script src="script.js"></script>
 </body>
-
-
-
-<script>
-  $(document).ready(function () {
-    // Add smooth scrolling to all links in navbar + footer link
-    $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 300, function () {
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-
-    $(window).scroll(function () {
-      $(".slideanim").each(function () {
-        var pos = $(this).offset().top;
-
-        var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-      });
-    });
-  })
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script src="js/grid.js"></script>
-<script>
-  $(function () {
-    Grid.init();
-  });
-
-  baguetteBox.run('.tz-gallery');
-
-  // $(function () {
-  //   $(document).scroll(function () {
-  //     var $nav = $(".navbar-fixed-top");
-  //     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  //   });
-  // });
-</script>
-
-<script>
-  if (navigator.userAgent.match(/Trident\/7\./)) {
-    document.body.addEventListener("mousewheel", function () {
-      event.preventDefault();
-      var wd = event.wheelDelta;
-      var csp = window.pageYOffset;
-      window.scrollTo(0, csp - wd);
-    });
-  }
-</script>
-
-<script>
-  function changeImge(hour) {
-    var change_image = document.getElementById("clock_bg");
-
-    //밤 인 경우
-    if (hour >= 18 && hour <= 24) {
-      change_image.style.backgroundImage = "url(img/clock_bg/clock_bg_night.jpeg)";
-      //밤 인 경우
-    } else if (hour >= 0 && hour <= 6) {
-      change_image.style.backgroundImage = "url(img/clock_bg/clock_bg_night.jpeg)";
-    } else {
-      //낮 인 경우
-      change_image.style.backgroundImage = "url(img/clock_bg/clock_bg_day.jpeg)";
-    }
-
-  }
-
-  function printTime() {
-    var clock = document.getElementById("clock"); // 출력할 장소 선택
-    var now = new Date(); // 현재시간
-    var hour = now.getHours();
-    var min = now.getMinutes();
-    var sec = now.getSeconds();
-
-    if (hour < 10) {
-      hour = '0' + hour;
-    }
-
-    if (min < 10) {
-      min = '0' + min;
-    }
-
-    if (sec < 10) {
-      sec = '0' + sec;
-    }
-
-
-    changeImge(hour);
-
-
-    var nowTime = hour + ":" + min + ":" + sec;
-    clock.innerHTML = nowTime; // 현재시간을 출력
-    setTimeout("printTime()", 1000); // setTimeout(“실행할함수”,시간) 시간은1초의 경우 1000
-  }
-
-  window.onload = function () { // 페이지가 로딩되면 실행
-    printTime();
-  }
-</script>
 
 </html>
