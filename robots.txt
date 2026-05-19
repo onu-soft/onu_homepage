@@ -1,2 +1,38 @@
+# onu-soft.com robots.txt
+
+User-agent: *
+Allow: /
+
+# AI / Answer engine crawlers (allowed for AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# AdSense app-ads.txt verification
 User-agent: Google-adstxt
 Disallow:
+
+Sitemap: https://onu-soft.com/sitemap.xml

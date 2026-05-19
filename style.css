@@ -456,6 +456,31 @@ section {
     line-height: 1.6;
 }
 
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.service-list li {
+    position: relative;
+    padding-left: 16px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.service-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--primary);
+}
+
 /* ====== Portfolio Section ====== */
 #portfolio {
     background: var(--surface);
